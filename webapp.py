@@ -53,7 +53,7 @@ def predict_crop(nitrogen, phosphorus, potassium, temperature, humidity, ph, rai
 # Streamlit UI
 st.markdown(f"<h1 style='text-align: center;'>{translate_text('SMART CROP RECOMMENDATIONS')}</h1>", unsafe_allow_html=True)
 st.markdown(f"<h3 style='text-align: center;'>{translate_text('Predict the best crop to grow based on soil and weather conditions')}</h3>", unsafe_allow_html=True)
-st.image("crop.png", use_container_width=True)
+st.image("crop.png")
 
 st.sidebar.title("🌱 BioSage")
 st.sidebar.header(translate_text("Enter Crop Details"))
